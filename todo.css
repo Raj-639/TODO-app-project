@@ -1,0 +1,61 @@
+#heading{
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(16, 70, 70);
+}
+
+.text-date{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 30px;
+  margin-top: 30px;
+  align-items: center;
+
+}
+
+
+#todo-date{
+  font-size: 20px;
+  padding: 10px 5px; 
+  border-radius: 5px;
+
+}
+
+
+#textChoice{
+  font-size: 20px;
+  padding: 10px 5px; 
+  border-radius: 5px;
+}
+
+
+#todo-date{
+  border-radius: 5px;
+}
+
+
+#btn-add{
+background-color: green;
+  border-radius: 10px;
+color: white;
+cursor: pointer;
+font-size: 20px;
+padding: 10px 5px;
+}
+
+
+#btn-delete{
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 5px; 
+  background-color: rgb(133, 13, 13);
+  color: white;
+  cursor: pointer;
+}
+
+
+
+#body{
+text-align: center;
+}
